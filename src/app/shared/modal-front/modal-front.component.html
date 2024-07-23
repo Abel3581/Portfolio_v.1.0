@@ -1,0 +1,32 @@
+<div class=" p-5 ">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLabel">Front End</h5>
+    <button
+      type="button"
+      class="btn-close"
+      aria-label="Close"
+      (click)="modalRef.close()"
+    ></button>
+  </div>
+  <div class="p-2">
+    <ul class="justify-content-center list-group list-group-horizontal-md ">
+      <li class="list-group-item text-info "><a>Html5</a></li>
+      <li class="list-group-item text-info"><a>Css3</a></li>
+      <li class="list-group-item text-info"><a>JavaScript</a></li>
+
+    </ul>
+    <ul class="justify-content-center list-group list-group-horizontal-md">
+      <li class="list-group-item text-danger"><a>Bootstrap</a></li>
+      <li class="list-group-item text-danger"><a>Tailwind</a></li>
+      <li class="list-group-item text-danger"><a>TypesScript</a></li>
+    </ul>
+    <ul class="justify-content-center list-group list-group-horizontal-md">
+      <li class="list-group-item text-warning"><a>Angular</a></li>
+    </ul>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="modalRef.close()">
+      Cerrar
+    </button>
+  </div>
+</div>

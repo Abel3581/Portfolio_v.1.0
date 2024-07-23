@@ -1,0 +1,45 @@
+.navbar-color{
+  background-color: black;
+}
+
+a{
+  cursor: pointer;
+}
+.a-l:hover{
+  color: #FFFF00;
+
+}
+.a-l{
+  color: #FF6D00;
+}
+.btn-cv:hover{
+  background: linear-gradient(
+        45deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+      );
+      color: aliceblue;
+
+}
+.image-nav{
+  background-image: url('https://mdbootstrap.com/img/new/slides/041.webp');
+  height: 400px;
+  margin-top: 58px;
+  background-attachment: fixed;
+}
+
+/* Estilos para pantallas pequeñas (teléfonos) */
+@media screen and (max-width: 576px) {
+  /* Estilos para pantallas con un ancho máximo de 576px */
+  .image-nav{
+    margin-top: 44px;
+  }
+  .margin-izq-sm{
+    margin-left: 10px;
+
+  }
+}
+
+.navbar-toggler{
+  color: #FF6D00;
+}

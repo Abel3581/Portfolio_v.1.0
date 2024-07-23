@@ -1,0 +1,92 @@
+/* Estilo para la línea vertical */
+.vertical-line {
+  position: absolute;
+  width: 2px;
+  /* Ancho de la línea */
+  height: 100%;
+  /* Altura de la línea, igual a la altura del contenedor */
+  // background-color: black; /* Color de la línea */
+  top: 0;
+  bottom: 0;
+  left: -20%;
+  /* Centrar horizontalmente la línea en el div padre */
+  transform: translateX(-50%);
+  /* Alinear la línea verticalmente en el centro */
+}
+
+.btn-style {
+  font-size: 10px;
+  padding: 5px;
+}
+
+.btn-style:hover {
+  background: linear-gradient(45deg,
+      rgba(29, 236, 197, 0.5),
+      rgba(91, 14, 214, 0.5) 100%);
+  color: black;
+}
+
+span {
+  font-size: 10.5px;
+}
+
+.img-style {
+  background-color: black;
+  width: 80px;
+  height: 25px;
+
+}
+
+.img-softtek {
+
+  width: 80px;
+  height: 25px;
+}
+
+.p-sobre-mi {
+  text-align: justify;
+  /* Alinea el texto justificado */
+  line-height: 1.5;
+  /* Ajusta el espaciado entre líneas */
+  font-family: Arial, sans-serif;
+  /* Elige una fuente */
+  padding: 10px;
+  /* Agrega un espacio interno alrededor del párrafo */
+
+}
+
+li {
+  list-style: none;
+}
+
+// .card {
+//   border: none;
+//   border-radius: 15px;
+// }
+
+// .card-body {
+//   padding: 20px;
+// }
+
+// .card .h5 {
+//   font-size: 1.25rem;
+//   margin-bottom: 0.5rem;
+// }
+
+// .card ul li {
+//   margin-bottom: 0.5rem;
+// }
+
+// .card .font {
+//   margin-top: 1rem;
+// }
+
+
+
+@media screen and (max-width: 576px) {
+  .p-sobre-mi {
+    font-size: 14px;
+
+
+  }
+}

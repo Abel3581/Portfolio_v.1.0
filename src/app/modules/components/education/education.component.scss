@@ -1,0 +1,22 @@
+/* Estilo para la línea vertical */
+.vertical-line {
+  position: absolute;
+  width: 2px; /* Ancho de la línea */
+  height: 100%; /* Altura de la línea, igual a la altura del contenedor */
+  background-color: black; /* Color de la línea */
+  top: 0;
+  bottom: 0;
+  left: -20%; /* Centrar horizontalmente la línea en el div padre */
+  transform: translateX(-50%); /* Alinear la línea verticalmente en el centro */
+}
+.btn-style{
+  font-size: 10px;
+  padding: 5px;
+}
+.btn-style:hover{
+  background-color: rgb(217, 220, 27);
+  color: black;
+}
+span{
+  font-size: 10.5px;
+}
